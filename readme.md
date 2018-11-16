@@ -60,6 +60,8 @@ socket.once('connect', () => {
 * TLS_RSA_WITH_AES_256_GCM_SHA384
 * TLS_RSA_WITH_AES_128_CCM
 * TLS_RSA_WITH_AES_256_CCM
+* TLS_PSK_WITH_AES_128_GCM_SHA256
+* TLS_PSK_WITH_AES_256_GCM_SHA384
 
 ### API
 
@@ -88,6 +90,14 @@ PEM-encoded client certificate, optional. Supports RSASSA-PKCS1-v1_5 and ECDSA c
 * `options.certificatePrivateKey: Buffer`
 
 PEM-encoded private key for client certificate.
+
+* `options.pskIdentity: String|Buffer`
+
+Identity string for PSK key exchange, see [RFC4279](https://tools.ietf.org/html/rfc4279).
+
+* `options.pskSecret: String|Buffer`
+
+Secret data for the identity string of PSK key exchange.
 
 * `class Socket`
 
