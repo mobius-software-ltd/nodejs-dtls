@@ -10,13 +10,13 @@ const udp = dgram.createSocket('udp4');
 
 const socket = dtls.connect({
   socket: udp,
-  remotePort: 4444,
+  remotePort: 5555,
   remoteAddress: '127.0.0.1',
   certificate: fs.readFileSync(
-    path.resolve(__dirname, 'fixtures/ecc/cert.pem')
+    path.resolve(__dirname, 'fixtures/cert.pem')
   ),
   certificatePrivateKey: fs.readFileSync(
-    path.resolve(__dirname, 'fixtures/ecc/key.pem')
+    path.resolve(__dirname, 'fixtures/key.pem')
   ),
   maxHandshakeRetransmissions: 4,
   alpn: 'http/1.1',
