@@ -20,10 +20,10 @@
     "type": "git",
     "url": "git+https://github.com/mobius-software-ltd/nodejs-dtls.git"
   },
-  "author": "Dmitriy Tsvettsikh <me@reklatsmasters.com>",
+  "author": "Dmitriy Tsvettsikh <me@reklatsmasters.com>, Mobius Software Ltd <websupport@mobius-software.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nodertc/dtls/issues"
+    "url": "https://github.com/mobius-software-ltd/nodejs-dtls/issues"
   },
   "homepage": "https://github.com/mobius-software-ltd/nodejs-dtls",
   "engines": {
