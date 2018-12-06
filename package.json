@@ -1,6 +1,6 @@
 {
-  "name": "@mobius-software-ltd/nodejs-dtls",
-  "version": "0.5.0",
+  "name": "nodejs-dtls",
+  "version": "0.5.1",
   "description": "Secure UDP communications using DTLS.",
   "main": "src/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "gnutls-server": "cd $PWD/fixtures && GNUTLS_DEBUG_LEVEL=100 ./dtls"
   },
   "keywords": [
-    "dtls", 
+    "dtls",
     "iot",
     "iotbroker"
   ],

@@ -24,14 +24,14 @@ Secure UDP communications using Datagram Transport Layer Security protocol versi
 ### Usage
 
 ```
-npm i @nodertc/dtls
+npm i nodejs-dtls
 ```
 
 ```js
-const dtls = require('@nodertc/dtls');
+const dtls = require('nodejs-dtls');
 
 const socket = dtls.connect({
-  remotePort: 5555,
+  remotePort: 4444,
   remoteAddress: '127.0.0.1',
 });
 
